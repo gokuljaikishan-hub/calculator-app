@@ -1,8 +1,16 @@
-/* styles.js content here */
-body {
-    font-family: Arial, sans-serif;
-}
-.button {
-    background-color: #4CAF50;
-    color: white;
-}
+// styles.js
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fafafa',
+  },
+  todoItem: {
+    padding: 20,
+    borderBottomWidth: 1,
+    borderBottomColor: '#cccccc',
+  },
+});
+
+export default styles;

@@ -1,16 +1,12 @@
-# Calculator Application
+# Todo App
 
-This is a simple calculator application that performs basic arithmetic operations.
+This is a simple Todo application built with React Native. It allows users to manage their todo list with persistent storage using AsyncStorage.
 
 ## Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
+- Add and remove todos
+- Persistent storage using AsyncStorage
 
 ## Installation
-1. Clone the repository.
-2. Install dependencies using `npm install`.
-
-## Usage
-Run the application using `node Calculator.js`.
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `npm start` to start the application
